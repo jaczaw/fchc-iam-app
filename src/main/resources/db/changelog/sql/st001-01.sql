@@ -1,0 +1,1 @@
+insert into fchc_iam (id,nazwa) values (1,'Test1');

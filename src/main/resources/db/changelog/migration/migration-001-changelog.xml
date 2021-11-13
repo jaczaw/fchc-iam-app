@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  ~ *******************************************************
+  ~ Project: fchcupbackend
+  ~ Create: jaczaw, Date: 30.09.2021, 20:14, migration-001-changelog.xml
+  ~ Last update: 30.09.2021, 20:14
+  ~ Copyright (c) 2021.
+  ~ ********************************************************
+  -->
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.3.xsd">
+
+    <changeSet id="Utworzenie tabeli testowej" author="jaczaw">
+        <sqlFile path="db/changelog/sql/st001-00.sql"/>
+    </changeSet>
+
+</databaseChangeLog>
